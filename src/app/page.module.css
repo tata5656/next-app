@@ -25,4 +25,5 @@
 .div:hover{
   background-color: rgb(100, 158, 173);
   color: white;
+  border-radius: 5%;
 }
