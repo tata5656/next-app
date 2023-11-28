@@ -5,6 +5,7 @@ import Image from 'next/image'
 function Footer() {
   return (
     <div className={styles.container}>
+      {/*hihi*/}
       <div>@all right reserved</div>
       <div className={styles.socialnetworks}>
         <Image
