@@ -38,6 +38,7 @@ function Footer() {
          />
         
         </div>
+        {/*buy buy*/}
       </div>
   )
 }
