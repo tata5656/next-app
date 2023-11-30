@@ -1,10 +1,26 @@
 import styles from './page.module.css'
+import Image from 'next/image'
+import Hero from 'public/hero.png'
+
+
+
 export default function Home() {
   return (
-    <main className={styles.main}>
-          <span className={styles.myspan}>ეს არის მთავარი გვერდი</span>
-          <div className={styles.div}>hallo</div>
+    <main className={styles.container}>
+          <div className={styles.item}>
+        <h1 className={styles.title}>Better design for your digital products.</h1>
+        <p className={styles.desc}>
+          Turning your Idea into Reality. We bring together the teams from the
+          global tech industry.
+        </p>
+        <button className={styles.button}>See Out Works</button>
+      </div>
+      <div className={styles.item}>
+      <Image src={Hero} alt="hero" className={styles.img}/>
+      </div>
+          </main>
+          
             
-     </main>
+     
   )
 }
