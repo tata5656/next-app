@@ -46,4 +46,3 @@ function Navbar() {
 }
 
 export default Navbar
-/*gamahjoba */

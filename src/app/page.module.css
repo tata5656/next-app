@@ -43,7 +43,8 @@
 .title{
   font-size: 72px;
   background: linear-gradient(to bottom, rgb(3, 0, 0),white);
-  -webkit-background-clip: text;
+ /* -webkit-background-clip:text;*/
+
   -webkit-text-fill-color: transparent;
 
 }
