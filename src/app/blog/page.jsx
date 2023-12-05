@@ -7,3 +7,4 @@ function Blog() {
 }
 
 export default Blog
+/*gamarjoba */
