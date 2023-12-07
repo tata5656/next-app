@@ -14,11 +14,13 @@
   
   a {
     text-decoration: none;
+    color: black;
+    margin-top: 10px;
   }
 
   .container {
     max-width: 1890px ;
-    min-height: 40vh;
+    min-height: 100vh;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;

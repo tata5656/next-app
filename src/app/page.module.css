@@ -42,9 +42,8 @@
 }
 .title{
   font-size: 72px;
-  background: linear-gradient(to bottom, rgb(3, 0, 0),white);
- /* -webkit-background-clip:text;*/
-
+  background: linear-gradient(to bottom, #194c33, #bbb);
+  -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
 
 }
@@ -54,16 +53,8 @@
   object-fit: contain;
  
 }
+
 .desc {
   font-size: 24px;
   font-weight: 300;
-}
-.button{
-  padding:20px;
-  cursor: pointer;
-  background-color: rgb(4, 34, 24);
-  border-radius: 5px;
-  width: max-content;
-  border-color: black;
-  color: white;
 }
