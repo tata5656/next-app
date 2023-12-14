@@ -25,7 +25,7 @@ function Contact() {
             cols="30"
             rows="10"
           ></textarea>
-          <Button title={"Send"} url={"/"} />
+          <Button text={"Send"} url={"/"} />
         </form>
       </div>
     </div>
