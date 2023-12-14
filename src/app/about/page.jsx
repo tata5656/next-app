@@ -61,8 +61,8 @@ function About() {
            <Button text={'contact'} url={'/contact'}/>
           </div>
         </section>
+
         
-        /*hello*/
 
     </div>
   )
